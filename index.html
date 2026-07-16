@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Claw Command Connect</title>
+</head>
+<body>
+    <form id="connect-form">
+        <img src="assets/Full-Icon_lower.svg" alt="TIPSE Logo" class="form-logo" />
+        <label for="first">First Name:</label>
+        <input id="first" type="text" name="first" placeholder="Eddie" required />
+
+        <label for="last">Last Name:</label>
+        <input id="last" type="text" name="last" placeholder="Eagle" />
+
+        <label for="cin">CIN:</label>
+        <input id="cin" type="text" name="cin" placeholder="12345678" required />
+
+        <label for="email">Preferred Email:</label>
+        <input id="email" type="email" name="email" placeholder="edEagle@calstatela.edu" required />
+
+        <label for="experience">Experience Level:</label>
+        <select id="experience" required>
+            <option selected value="">Choose your experience level</option>
+            <option value="advanced">I read raw packet captures to relax before bed.</option>
+            <option value="intermediate">I know enough to accidentally DDoS my own router.</option>
+            <option value="novice">I can run a network scan... but I don't know what anything means yet.</option>
+            <option value="beginner">I clicked the phising test email... twice.</option>
+        </select>
+
+        <label for="major">Major:</label>
+        <input id="major" type="text" name="major" placeholder="Computer Science" />
+
+        <button type="submit">Interested?</button>
+    </form>
+
+    <script src="js/script.js"></script>
+
+    <footer class="footer">
+        <p>Copyright &copy; Claw Command CSULA 2024</p>
+        <p>Claw Command retains the rights to Clawd image and name</p>
+    </footer>
+
+</body>
+</html>
